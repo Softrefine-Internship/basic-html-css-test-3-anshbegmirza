@@ -1,0 +1,345 @@
+/* #FCA424 
+#0DD39D 
+#1A1A1A 
+#CDCDCD 
+#FEFEFE */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  max-height: 100%;
+}
+
+
+html {
+  height: 99vh !important;
+}
+
+
+.container {
+  height: 99vh !important;
+  margin: auto;
+  border: 1px solid lime;
+  /* width: 100vw !important; */
+
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  height: 27%;
+  background-color: rgb(18, 102, 212);
+  margin: 8px 8px;
+  background-image: url(dry-mountains.jpg);
+  background-size: 100% 100%
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.funding {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  transform: translate(27px,
+      -54px);
+}
+
+.chatbubble {
+  height: 9px;
+  width: 9px;
+
+}
+
+.funding p {
+  font-size: 9px;
+  color: #FEFEFE;
+  font-weight: 540;
+}
+
+.button-bell-dp {
+  display: flex;
+  gap: 14px;
+  transform: translate(-17px, 9px);
+}
+
+.button-bell-dp a {
+  font-size: 9px;
+  text-decoration: none;
+  padding: 4px 6px;
+  color: #CDCDCD;
+  background-color: rgba(209, 209, 209, 0.226);
+  border: none;
+  cursor: pointer;
+  display: block;
+  transform: scale(20px, 30px);
+  height: 20px;
+
+}
+
+/* 
+.button-bell-dp a {
+  text-decoration: none;
+  padding: 12px 18px;
+  background-color: #4849e0;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  height: ;
+} */
+
+/*** Hi Emma ***/
+.button-bell-dp svg {
+  height: 16px;
+  width: 16px;
+  stroke: #FEFEFE;
+
+}
+
+.button-bell-dp img {
+  height: 18px;
+  width: 18px;
+
+}
+
+.portrait {
+  width: 126px;
+  height: 126px;
+  transform: translate(34px, -94px);
+}
+
+.waving-hand {
+  width: 20px;
+  height: 20px;
+  transform: translate(-2px, 5px);
+}
+
+.infor-email {
+  color: #CDCDCD;
+}
+
+.texts-beside-dp {
+  transform: translate(180px, -230px);
+  font-size: 7px;
+  line-height: 1.8;
+  color: #FEFEFE;
+}
+
+.Hi-emma {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
+/*** Side box with btns ***/
+
+.side-box {
+  color: black;
+  width: 180px;
+  height: 80px;
+  background-color: rgba(205, 205, 205, 0.322);
+  display: flex;
+  gap: 14px;
+  padding-left: 10px;
+  padding: 10px 10px;
+  transform: translate(980px,
+      -108px);
+}
+
+.profile {
+  font-size: 10px;
+  color: #FEFEFE;
+}
+
+
+
+.please {
+  font-size: 7px;
+  margin-bottom: 8px;
+  color: #FEFEFE;
+}
+
+.complete-btn {
+  font-size: 7px;
+  text-decoration: none;
+  padding: 4px 6px;
+  color: #FEFEFE;
+  background-color: #FCA424;
+  border: none;
+  cursor: pointer;
+  display: block;
+  transform: scale(20px, 30px);
+  height: 18px;
+  width: 52px;
+  text-align: center;
+  /* padding-bottom: 16px; */
+}
+
+.btn-75 {
+  font-size: 10px;
+  text-decoration: none;
+  padding: 8px 6px;
+  color: #FEFEFE;
+  background-color: rgba(205, 205, 205, 0.504);
+  border: none;
+  cursor: pointer;
+  display: block;
+  transform: scale(20px, 30px);
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  text-align: center;
+  transform: translate(12px, -43px);
+  /* padding-bottom: 16px; */
+}
+
+/*** Circle orange border outline ***/
+.circle {
+  width: 56px;
+
+  height: 56px;
+
+  border: 3px solid #FCA424;
+
+  border-radius: 50%;
+
+  background-color: none;
+
+  box-sizing: border-box;
+
+  /* background: conic-gradient(from 0deg,
+      #3498db 0deg,
+      #3498db 270deg,
+      /* Adjust this angle to change the length of the gap */
+  transparent 60deg,
+  transparent 360deg);
+  */
+}
+
+
+/****** Camera Icon******/
+
+#Camera {
+  width: 13px;
+  height: 13px;
+  opacity: 63%;
+  align-items: center;
+
+}
+
+.camera-div {
+  background-color: rgba(205, 205, 205, 0.322);
+  width: 15px;
+  height: 15px;
+
+  transform: translate(1144px,
+      -100px);
+}
+
+/***************** ABOUT ME COLUMN ********************/
+
+.about-me {
+  width: 200px;
+  height: 426px;
+  /* background-color: #CDCDCD; */
+  transform: translate(8px,
+      -328px);
+  /* outline: 3px solid lime; */
+  border-right: 1px solid grey;
+
+}
+
+.about-my-family {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 63px;
+  transform: translate(25px, 54px);
+  align-items: center;
+}
+
+.About-my {
+  font-size: 11px;
+  font-weight: 540;
+}
+
+.about-my-family img {
+  width: 10px;
+  height: 10px;
+}
+
+.DIV-1-BELOW-ABOUTME {
+  transform: translate(25px, 63px)
+}
+
+.side-headline {
+  font-size: 8px;
+  color: #a1a1a1;
+  font-weight: 540;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.side-imgs {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 4px;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+.text-below-imgs {
+  transform: translate(25px, 70px);
+  display: flex;
+  gap: 105px;
+}
+
+.text-below-imgs img {
+  width: 10px;
+  height: 10px;
+
+}
+
+.text-below-imgs p {
+  font-size: 11px;
+  font-weight: 540;
+  text-transform: uppercase;
+}
+
+.details-below-imgs {
+  transform: translate(25px, 70px);
+}
+
+.tag-below-imgs {
+  color: #CDCDCD;
+  text-transform: uppercase;
+}
+
+.details-below-imgs {
+  color: #1A1A1A;
+  margin-top: 8px;
+
+}
+
+.details-below-imgs p {
+  font-size: 8px;
+  margin-bottom: 6px;
+  font-weight: 520;
+}
