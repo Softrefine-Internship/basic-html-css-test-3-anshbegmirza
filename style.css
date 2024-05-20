@@ -41,7 +41,7 @@ nav {
   height: 27%;
   background-color: rgb(18, 102, 212);
   margin: 8px 8px;
-  background-image: url(dry-mountains.jpg);
+  background-image: url(rsz_dry-mountains.jpg);
   background-size: 100% 100%
 }
 
@@ -342,4 +342,203 @@ nav {
   font-size: 8px;
   margin-bottom: 6px;
   font-weight: 520;
+}
+
+
+/**************DASHBOARD LINKS WITH BUTTON************/
+.homeicon {
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  margin-right: 3px;
+
+}
+
+
+#border {
+  border-bottom: 2px solid #FCA424;
+  color: #000;
+}
+
+.link-1 {
+
+  text-decoration: none;
+  padding: 3px 40px;
+  background-color: #fefefe;
+  color: #cdcdcd;
+  border: none;
+  border-bottom: 1px solid #CDCDCD;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 9px;
+  /* border-radius: 8px; */
+  cursor: pointer;
+  align-items: center;
+}
+
+.link-1:hover {
+  background-color: #CDCDCD;
+  color: #fc7324;
+  cursor: pointer;
+}
+
+
+
+
+.dashboard-links {
+  transform: translate(220px, -755px);
+}
+
+.money {
+  height: 20px;
+  width: 20px;
+  transform: translate(-2px, 2px);
+}
+
+#border-btm {
+  /* padding: 3px 40px; */
+  border-bottom: 1px solid #CDCDCD;
+}
+
+.claim-btn {
+  padding: 1px 15px;
+  background-color: #0dd39d;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  margin-top: 15px;
+  margin-left: 20px;
+
+  color: #FEFEFE;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 530;
+  padding-bottom: 4px;
+
+}
+
+.claim-btn:hover {
+  background-color: #11dda7;
+  color: #1A1A1A;
+}
+
+
+/**************Three Boxes ***********************/
+.main-three-boxes-cont {
+  display: flex;
+  gap: 180px;
+  flex-grow: 1;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+
+  transform: translate(220px, -740px);
+}
+
+
+
+
+
+
+.three-boxes {
+  display: flex;
+  gap: 54px;
+  background-color:
+    width: 450px;
+  height: ;
+  /* padding: 1px 20px; */
+  padding-bottom: 1px;
+  box-shadow: 2px 2px 2px rgba(161, 161, 161, 0.562);
+  align-items: center;
+  padding-right: 40px;
+  padding-left: 10px;
+  justify-content: center;
+}
+
+.number p {
+  font-size: 24px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(161, 161, 161, 0.09);
+  width: 60px;
+}
+
+.txt-imgs p {
+  /* margin-top: 20px; */
+  font-size: 10px;
+  color: #a1a1a1;
+  margin-bottom: 9px;
+  width: ;
+}
+
+.circle-imgs {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: -14px;
+}
+
+.green-filter {
+  background-image:
+    linear-gradient(90deg, rgba(94, 208, 174, 0.815), rgba(94, 208, 174, 0.733)), url(./headshots-imgs/black-white-minimal-portrait.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+
+
+}
+
+.position {
+  /* transform: translate(45px, -34px); */
+  /* for 30*30*/
+  transform: translate(30px, -29px);
+  /* for 25*25 */
+}
+
+.green-filter p {
+  color: #FEFEFE;
+
+  /* color: #1A1A1A; */
+  text-align: center;
+  font-size: 10px;
+  transform: translate(-2px, 9px);
+}
+
+.images {
+  margin-left: 10px;
+}
+
+
+/*********Amelia Kamani Credentials *********/
+
+.Amelia-Kimani {
+  background-color: #0852c0;
+  display: flex;
+  gap: 20px;
+
+}
+
+.amelia-dp {
+  width: 117px;
+  height: 117px;
+}
+
+.name {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+
+.amelia-details span {
+  color: #a1a1a1;
+  font-size: 10px;
+}
+
+.amelia-details svg {
+  margin-right: 8px;
+}
+
+.amelia-details {
+  font-size: 10px;
+  color: #FEFEFE;
 }
