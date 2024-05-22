@@ -30,7 +30,7 @@ html {
   margin: auto;
   /* border: 1px solid lime; */
   /* width: 100vw !important; */
-
+  transform: translate(0px, -3px);
 }
 
 body {
@@ -399,8 +399,10 @@ nav {
 
 
 .dashboard-links {
-  transform: translate(220px, -770px);
+  transform: translate(108px, -770px);
   margin-top: none;
+  display: flex;
+  justify-content: center;
 }
 
 .money {
@@ -428,7 +430,15 @@ nav {
   text-transform: uppercase;
   font-weight: 530;
   padding-bottom: 4px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 2px;
+}
 
+.claim-txt {
+  transform: translate(0px, 2px);
+  font-weight: 630;
 }
 
 .claim-btn:hover {
@@ -629,6 +639,10 @@ nav {
 }
 
 #pay:hover {
+  background-color: #e09420;
+}
+
+.money:hover {
   background-color: #e09420;
 }
 
