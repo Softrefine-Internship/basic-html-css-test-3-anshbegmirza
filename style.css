@@ -28,7 +28,7 @@ html {
 .container {
   height: 99vh !important;
   margin: auto;
-  border: 1px solid lime;
+  /* border: 1px solid lime; */
   /* width: 100vw !important; */
 
 }
@@ -41,7 +41,7 @@ nav {
   height: 27%;
   background-color: rgb(18, 102, 212);
   margin: 8px 8px;
-  background-image: url(rsz_dry-mountains.jpg);
+  background-image: linear-gradient(90deg, rgba(90, 90, 90, 0.54) 0%, rgba(26, 26, 26, 0.63) 100%), url(rsz_pexels-michael-spadoni-269949-813465.jpg);
   background-size: 100% 100%
 }
 
@@ -90,6 +90,10 @@ nav {
 
 }
 
+.button-bell-dp a:hover {
+  background-color: rgb(73, 73, 73, 0.3);
+}
+
 /* 
 .button-bell-dp a {
   text-decoration: none;
@@ -136,8 +140,8 @@ nav {
 }
 
 .texts-beside-dp {
-  transform: translate(180px, -230px);
-  font-size: 7px;
+  transform: translate(180px, -246px);
+  font-size: 9px;
   line-height: 1.8;
   color: #FEFEFE;
 }
@@ -190,6 +194,15 @@ nav {
   width: 52px;
   text-align: center;
   /* padding-bottom: 16px; */
+}
+
+.complete-btn:hover {
+  background-color: #e2941e;
+}
+
+.btn-75:hover {
+
+  background-color: rgba(141, 141, 141, 1);
 }
 
 .btn-75 {
@@ -260,9 +273,9 @@ nav {
   height: 426px;
   /* background-color: #CDCDCD; */
   transform: translate(8px,
-      -328px);
+      -344px);
   /* outline: 3px solid lime; */
-  border-right: 1px solid grey;
+  border-right: 1px solid rgb(128, 128, 128, 0.3);
 
 }
 
@@ -386,7 +399,8 @@ nav {
 
 
 .dashboard-links {
-  transform: translate(220px, -755px);
+  transform: translate(220px, -770px);
+  margin-top: none;
 }
 
 .money {
@@ -426,12 +440,13 @@ nav {
 /**************Three Boxes ***********************/
 .main-three-boxes-cont {
   display: flex;
-  gap: 180px;
-  flex-grow: 1;
+  /* gap: 180px; */
+  /* flex-grow: 1; */
   /* display: grid;
   grid-template-columns: 1fr 1fr 1fr; */
 
-  transform: translate(220px, -740px);
+  transform: translate(220px, -758px);
+  margin-bottom: 10px;
 }
 
 
@@ -442,12 +457,13 @@ nav {
 .three-boxes {
   display: flex;
   gap: 54px;
-  background-color:
-    width: 450px;
-  height: ;
+  /* background-color: */
+  width: 375px;
+  /* height: 75px; */
+  /* height: ; */
   /* padding: 1px 20px; */
   padding-bottom: 1px;
-  box-shadow: 2px 2px 2px rgba(161, 161, 161, 0.562);
+  box-shadow: 2px 2px 2px rgba(161, 161, 161, 0.18);
   align-items: center;
   padding-right: 40px;
   padding-left: 10px;
@@ -512,20 +528,46 @@ nav {
 /*********Amelia Kamani Credentials *********/
 
 .Amelia-Kimani {
-  background-color: #0852c0;
+  /* background-color: #b3b3b3; */
+  /* outline: 1px solid lime; */
   display: flex;
   gap: 20px;
-
+  height: 83px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transform: translate(222px, -750px);
+  width: 749px;
+  box-shadow: 1px 1px 9px rgba(161, 161, 161, 0.2);
+  margin-bottom: 14px;
 }
+
+#ADJUSTMENTS {
+  height: 86px !important;
+}
+
+#ADJUSTMENTS .amelia-dp {
+  height: 80px !important;
+  width: 80px !important;
+}
+
 
 .amelia-dp {
-  width: 117px;
-  height: 117px;
+  width: 80px;
+  height: 83px;
+  border-radius: 10%;
 }
 
+.text-div {
+  font-weight: 630;
+}
+
+
 .name {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
+  color: #1A1A1A;
+  text-transform: uppercase;
+  margin-bottom: 8px;
 }
 
 
@@ -535,10 +577,155 @@ nav {
 }
 
 .amelia-details svg {
-  margin-right: 8px;
+  /* margin-right: 8px; */
 }
+
+
+
 
 .amelia-details {
   font-size: 10px;
-  color: #FEFEFE;
+  color: #cdcdcd;
+  margin-bottom: 4px;
+}
+
+.calender {
+  margin-right: 8px;
+  align-items: center;
+}
+
+.position-text {
+  display: flex;
+  margin-left: -1px;
+}
+
+.due-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  align-items: center;
+}
+
+.marker-edit {
+  display: flex;
+  margin-left: -4px;
+}
+
+.address-marker {
+  transform: translate(4px, -4px);
+  /* transform: scale(.5), translate(0px, -12px); */
+  margin-right: 10px;
+}
+
+.position-marker {
+  transform: translate(0px, -3px);
+}
+
+#pay {
+  transform: translate(320px, -30px);
+  background-color: #FCA424;
+  padding: 3px 15px;
+  font-weight: 630;
+}
+
+#pay:hover {
+  background-color: #e09420;
+}
+
+
+.pay-svg {
+  transform: translate(0px, 1px);
+}
+
+/***************** aCTIVITY BOX ********************/
+
+.activity-box {
+  width: 370px;
+  height: 270px;
+  /* background-color: lime; */
+  transform: translate(976px,
+      -1038px);
+}
+
+.activity-first {
+  /* background-color: lightcoral; */
+  margin-bottom: 14px;
+  margin-top: 3px;
+}
+
+.act-title {
+  font-size: 14px;
+  color: #a1a1a1;
+  /* padding: 9px 9px; */
+}
+
+.act-title-box {
+  padding: 9px 9px;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.2);
+}
+
+.act-subheading {
+  font-size: 14px;
+  margin-bottom: 2px;
+  color: #1A1A1A;
+}
+
+.circle-act {
+  border-radius: 50%;
+  margin-right: 3px;
+  margin-left: 5px;
+}
+
+.act-desp {
+  font-size: 10px;
+  margin-left: 20px;
+  /* margin-bottom: 2px; */
+  color: #b3b3b3;
+}
+
+.act-time {
+  font-size: 10px;
+  margin-left: 20px;
+  color: #cdcdcd;
+}
+
+.line-bar {
+  height: 36px;
+  width: 36px;
+  transform: translate(330px, -26px);
+}
+
+#remove-space {
+  height: 42px !important;
+}
+
+.outline {
+  /* outline: 1px solid skyblue; */
+}
+
+.scroll {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: #FFFFFF;
+  /* height: 20px; */
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #FCA424;
+  height: 20px !important;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: #fc7324;
+}
+
+.scroll::-webkit-scrollbar-button {
+  display: none;
 }
