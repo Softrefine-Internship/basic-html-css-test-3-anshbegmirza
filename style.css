@@ -28,7 +28,7 @@ html {
 .container {
   height: 99vh !important;
   margin: auto;
-  /* border: 1px solid lime; */
+  border: 1px solid rgba(255, 255, 255, 0.1);
   /* width: 100vw !important; */
   transform: translate(0px, -3px);
 }
@@ -367,6 +367,12 @@ nav {
 
 }
 
+.home-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
 
 #border {
   border-bottom: 2px solid #FCA424;
@@ -481,10 +487,11 @@ nav {
 }
 
 .number p {
-  font-size: 24px;
+  font-size: 32px;
   text-align: center;
   box-shadow: 2px 2px 2px rgba(161, 161, 161, 0.09);
   width: 60px;
+  transform: translate(0px, -6px);
 }
 
 .txt-imgs p {
